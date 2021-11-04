@@ -1,7 +1,6 @@
 set autoindent
 set autowrite
 set cursorline
-set expandtab
 set ignorecase
 set modeline
 set modelines=5

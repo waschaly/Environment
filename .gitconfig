@@ -1,0 +1,15 @@
+[user]
+	name = Wolf-Agathon Schalý
+	email = w-a.schaly@arcor.de
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[color]
+	ui = false
+	branch = false
+	diff = false
+	interactive = false
+	status = false
+	log = false
