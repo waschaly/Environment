@@ -47,7 +47,7 @@ then
 
 	if [ $(logname) = 'root' ]
 	then 
-		PS1="%F{green}%n%{$reset_color%}@%m %F{green}%(4~|../%3~|%~)%{$reset_color%} %# "
+		PS1="%F{green}%n%{$reset_color%}@%m %F{green}%(3~|../%2~|%~)%{$reset_color%} %# "
 	else
 		PS1="%F{red}%n%{$reset_color%}@%m %F{green}%(3~|../%2~|%~)%{$reset_color%} %# "
 	fi
