@@ -1,6 +1,6 @@
 [user]
 	name = Wolf-Agathon Schalý
-	email = w-a.schaly@arcor.de
+	email = schaly_wolf-agathon@t-.online.de
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
